@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+      <title>Junior Youth - SK/MB</title>
+      <link rel="icon" href="img/treeIcon.png" type="image/png">
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+
+    <!-- Navigation -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="BecomeAnimator.html" >Become An Animator</a>
+            </li>
+            <li>
+                <a href="JuniorYouthGroups.html">Junior Youth Groups</a>
+            </li>
+            <li>
+                <a href="Youth.html">The Role of Youth</a>
+            </li>
+          
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="text-vertical-center">
+            <h1 class="topMargin">Become An Animator</h1>
+
+            <br>
+
+        </div>
+    </header>
+
+    <!-- About -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>The Junior Youth Empowerment Program is organized around the concept</br> of a junior youth group.</h2>
+
+                    <p class = "italic">
+                      "No society can experience the spiritual and social advancement possible at this stage of human life without the selfless service of its members..."
+                    </p>
+                    <h2 class = "headerMargin">What is an animator</h2>
+                    <p class="leadLeft">We call facilitators of junior youth groups 'animators' because their role is to bring joy and life into the activities of the group. An animator serves as a true friend and wise advisor to the junior youth, and is careful to not act in a paternalistic way. Animators must relate to the junior youth not as children, but as young people with capacity and a growing ability to contribute to building a new society. The group must foster conditions that inspire service to the community, while making sure that an attitude of self-centeredness is not evoked. Their interactions with the parents of the junior youth must nurture a collaborative spirit and attempt to extend the positive environment of the group into the home and community.
+
+
+                          <h2 class = "headerMargin">Qualities of an Animator</h2>
+                          <p class="leadLeft">Typically an animator is an older youth, aged 15-30, but it is not limited to that age group.  However, junior youth tend to look up to youth and repeat behaviors of those youth they see around them. Since youth are closest to that stage of life they can relate to a lot of the feelings, problems and emotions that the junior youth are experiencing and likely have practical tools to work through circumstances that may arise.</p>
+                          <p class="leadLeft">An effective facilitator of these groups is patient and willing to treat the junior youth with the same kindness, respect and love which they would treat someone their same age. Animators are careful to not treat them as less important or less valuable than an adult member of society.</p>
+                          <p class="leadLeft">It is important to have confidence to facilitate group discussions and the flexibility to incorporate the ideas and desires of all the group members. Humility is needed to engage in a process of community development characterized by action, reflection, consultation and research. It is important to be consistent with attendance to the junior youth group as the junior youth, their families and the other facilitator you are working with rely on you to be there.</p>
+                          <h2 class = "headerMargin">How to become an animator</h2>
+                            <p class="leadLeft">In order to become an animator, you participate in a training geared to build capacity to work with junior youth. The training focuses on personal growth and looks at the potential of this age group, the important and unique role of an animator, and some practical skills, such as lesson planning, encouraging desirable behavior, and establishing bonds of friendship with parents of junior youth.</p>
+                              <p class="leadLeft">Animators are accompanied to start new groups and are helped during the group's first few meetings by program coordinators or experienced animators. They also participate in periodic gatherings of animators to receive continual support and work together to enhance the overall program.</p>
+                            </br>
+
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+
+                    <hr class="small">
+                    <p class="text-muted">Copyright &copy; Community Web Development 2016</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    </script>
+
+</body>
+
+</html>
